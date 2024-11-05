@@ -20,8 +20,8 @@ const ContentCreatorBox = () => {
           </div>
         </div>
         <div className="ml-80 py-12 flex">
-          <div className="border border-gray-200 w-[610px] h-[370px] rounded-xl  items-center">
-            image
+          <div className="border border-gray-200 w-[610px] h-[370px] rounded-xl  items-center overflow-hidden">
+            <img src="https://media.istockphoto.com/id/1245196311/photo/young-smiling-indian-woman-sitting-at-table-with-computer.jpg?s=612x612&w=0&k=20&c=dHXYJsnKwMvMfHOTW73XG4BC0qFSbrCHx7LzsPPE9Uk=" alt="" className="w-full h-full object-cover"/>
           </div>
           <div className="flex items-center justify-end ml-20 text-2xl font-medium ">
             <Accordion

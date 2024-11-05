@@ -19,8 +19,8 @@ function videoNeed() {
           </Button>
         </div>
         <div className="w-1/2 flex flex-col justify-start m-16">
-        <div className="w-[550px] h-[780px] border border-slate-300 rounded-3xl ml-40">
-
+        <div className="w-[550px] h-[780px] border border-slate-300 rounded-3xl ml-40 overflow-hidden">
+<img src="https://clipart-library.com/images/8cGb5AnMi.jpg" alt="" className="w-full h-full object-cover"/>
         </div>
         
         </div>

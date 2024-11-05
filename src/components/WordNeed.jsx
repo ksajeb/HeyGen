@@ -34,8 +34,12 @@ const WordNeed = () => {
                 </p>
               </div>
             </div>
-            <div className="w-[675px] h-[380px] border border-slate-400 rounded-xl my-20 -ml-16 ">
-              image
+            <div className="w-[675px] h-[380px] border border-slate-400 rounded-xl my-20 -ml-16 overflow-hidden ">
+              <img
+                src="https://t4.ftcdn.net/jpg/06/50/90/67/360_F_650906734_X3cz4b75H6gKeS02eeFnt4nVmDtOL2w3.jpg"
+                alt=""
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
