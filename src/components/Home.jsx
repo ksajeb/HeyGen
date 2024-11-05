@@ -3,6 +3,7 @@ import NewSpokePersonCard from "./NewSpokePersonCard";
 import Footer from "./shared/Footer";
 import Navbar from "./shared/Navbar";
 import VideoPage from "./VideoPage";
+import WordNeed from "./WordNeed";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <VideoPage/>
       <NewSpokePersonCard/>
       <ContentCreatorBox/>
+      <WordNeed/>
       <Footer />
     </div>
   );

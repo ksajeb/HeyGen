@@ -23,8 +23,13 @@ const ContentCreatorBox = () => {
           <div className="border border-gray-200 w-[610px] h-[370px] rounded-xl  items-center">
             image
           </div>
-          <div className="flex items-center justify-end ml-20 text-2xl font-medium  ">
-            <Accordion type="single" collapsible className="w-[400px]">
+          <div className="flex items-center justify-end ml-20 text-2xl font-medium ">
+            <Accordion
+              type="single"
+              collapsible
+              className="w-[400px] h-[380px]"
+              defaultValue="item-1"
+            >
               <AccordionItem value="item-1">
                 <AccordionTrigger className="hover:no-underline font-normal">
                   Marketing
