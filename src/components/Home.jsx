@@ -13,6 +13,7 @@ function Home() {
       <NewSpokePersonCard/>
       <ContentCreatorBox/>
       <WordNeed/>
+      <languageNeed/>
       <Footer />
     </div>
   );

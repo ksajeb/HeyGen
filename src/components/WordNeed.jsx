@@ -8,7 +8,7 @@ const WordNeed = () => {
         <div className="">
           <div className="flex flex-col items-center justify-center ">
             <h1 className="text-7xl">All you needs is words </h1>
-            <p className="mt-10">
+            <p className="mt-10 font-medium text-lg ">
               Write your script (or get some help with built-in ChatGPT), and
               watch an avatar read it flawlessly in one take. Need to change
               something? No reshoots necessary, just edit the text.
@@ -20,11 +20,14 @@ const WordNeed = () => {
           <div className="flex items-center justify-center mr-52">
             <div className="w-[350px] h-[220px] border border-slate-400 rounded-xl my-20 ml-60">
               <div className="w-[100px] h-[30px] border border-slate-200 rounded-lg m-4 flex">
-                <Globe className="flex items-center justify-center m-1" />
-                <p className="text-base">Alloy</p>
+                <Globe className="m-1" />
+                <p className="text-base ">Alloy</p>
+              </div>
+              <div className=" mt-3">
+                <Play />
               </div>
 
-              <div className="w-[320px] h-[140px] border border-slate-400 rounded-xl m-4 ">
+              <div className="w-[318px] h-[140px] border border-slate-400 rounded-xl m-4 ">
                 <p className="p-2 text-wrap font-normal text-xl">
                   Welcome to HeyGen! Give me a script to read, and make edits
                   any time you want.
