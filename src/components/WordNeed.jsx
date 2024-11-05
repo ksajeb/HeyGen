@@ -23,9 +23,9 @@ const WordNeed = () => {
                 <Globe className="m-1" />
                 <p className="text-base ">Alloy</p>
               </div>
-              <div className=" mt-3">
+              {/* <div className=" mt-3">
                 <Play />
-              </div>
+              </div> */}
 
               <div className="w-[318px] h-[140px] border border-slate-400 rounded-xl m-4 ">
                 <p className="p-2 text-wrap font-normal text-xl">
