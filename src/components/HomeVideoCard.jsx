@@ -2,7 +2,7 @@
 
 function HomeVideoCard() {
   return (
-    <div className="border border-gray-600  rounded-3xl my-7 m-10" style={{ height: '800px' }}>
+    <div className="border border-gray-600  rounded-3xl my-7 m-10 h-[800px]" >
       {/* <CardContent>
         <div>
           <video
