@@ -18,8 +18,8 @@ const WordNeed = () => {
             </Button>
           </div>
           <div className="flex items-center justify-center mr-52">
-            <div className="w-[350px] h-[220px] border border-slate-400 rounded-xl my-20 ml-60">
-              <div className="w-[100px] h-[30px] border border-slate-200 rounded-lg m-4 flex">
+            <div className="w-[350px] h-[220px] border border-slate-400 rounded-xl my-20 ml-60 z-10 bg-slate-300">
+              <div className="w-[100px] h-[30px] border border-black rounded-lg m-4 flex">
                 <Globe className="m-1" />
                 <p className="text-base ">Alloy</p>
               </div>
@@ -27,7 +27,7 @@ const WordNeed = () => {
                 <Play />
               </div> */}
 
-              <div className="w-[318px] h-[140px] border border-slate-400 rounded-xl m-4 ">
+              <div className="w-[318px] h-[140px] border border-black rounded-xl m-4 ">
                 <p className="p-2 text-wrap font-normal text-xl">
                   Welcome to HeyGen! Give me a script to read, and make edits
                   any time you want.
@@ -40,6 +40,9 @@ const WordNeed = () => {
                 alt=""
                 className="w-full h-full object-cover"
               />
+              <div className="w-[200px] h-[200px] border border-black">
+                <p>dsgdhxfigsdufdukghdfughdngkgcjdghodg;ku foughughudfhg</p>
+              </div>
             </div>
           </div>
         </div>

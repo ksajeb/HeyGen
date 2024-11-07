@@ -2,7 +2,7 @@ import { Button } from "../ui/button";
 
 function Navbar() {
   return (
-    <div className=" bg-slate-700 w-full h-20 flex justify-between fixed top-0 left-0">
+    <div className=" bg-slate-700 w-full h-20 flex justify-between fixed top-0 left-0 z-50">
       <div className="ml-4 p-2 w-40 h-40 ">
         <div className="flex items-center ">
           <img src="/heygen.png" alt="banner" />
