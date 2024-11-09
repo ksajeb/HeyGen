@@ -14,8 +14,8 @@ function Navbar() {
           <div className="flex items-center space-x-2 cursor-pointer pl-6 text-xl justify-between ">
             <Platform />
             <Solution />
-            <Pricing />
             <Resources />
+            <Pricing />
             <ul>
               <li className="text-base font-semibold ">Enterprise</li>
             </ul>

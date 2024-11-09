@@ -1,4 +1,11 @@
-import { Contact, Film, Hand, Video } from "lucide-react";
+import {
+  Book,
+  MapPinPlusInside,
+  ShoppingCart,
+  SquareCode,
+  UsersRound,
+  Volume2,
+} from "lucide-react";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -17,30 +24,47 @@ const Solution = () => {
               Solution
             </NavigationMenuTrigger>
             <NavigationMenuContent>
-              <div className="w-[700px] h-[400px] border border-slate-400 rounded-2xl flex">
-                <div className="w-1/2 items-center m-10 ">
-                  <p className="text-xl font-medium text-gray-500 pb-10">
-                    Industry
-                  </p>
+              <div className="w-[700px] h-[350px] border border-slate-400 rounded-2xl flex">
+                <div className="w-1/2 flex justify-start">
+                  <div className=" my-10 mx-5">
+                    <p className="text-xl font-medium text-gray-500 pb-6">
+                      Industry
+                    </p>
 
-                  <div className="flex pb-4 space-x-2">
-                    <Contact className="text-[#A34CDB]" />
-                    <h1 className="text-lg">Avatar Videos</h1>
+                    <div className="flex pb-4 space-x-2">
+                      <UsersRound className="text-[#A34CDB]" />
+                      <h1 className="text-lg">Agencies</h1>
+                    </div>
+                    <div className="flex pb-4 space-x-2 text-wrap">
+                      <Book className="text-[#A34CDB]" />
+                      <h1 className="text-lg text-wrap">E-learning</h1>
+                    </div>
                   </div>
-                  <div className="flex pb-4 space-x-2">
-                    <Film className="text-[#A34CDB]" />
-                    <h1 className="text-lg">Video Translation</h1>
-                  </div>
-                  <div className="flex pb-4 space-x-2">
-                    <Video className="text-[#A34CDB]" />
-                    <h1 className="text-lg">Personalized Video</h1>
-                  </div>
-                  <div className="flex pb-4 space-x-2">
-                    <Hand className="text-[#A34CDB]" />
-                    <h1 className="text-lg">Interactive Avatar</h1>
+                  <div className="my-10 mx-5 ">
+                    <p className="text-xl font-medium text-gray-500 pb-6">
+                      Teams
+                    </p>
+
+                    <div className="flex pb-4 space-x-2">
+                      <Volume2 className="text-[#A34CDB]" />
+                      <h1 className="text-lg">Marketing</h1>
+                    </div>
+                    <div className="flex pb-4 space-x-2">
+                      <SquareCode className="text-[#A34CDB]" />
+                      <h1 className="text-lg">Learning & Development</h1>
+                    </div>
+                    <div className="flex pb-4 space-x-2">
+                      <MapPinPlusInside className="text-[#A34CDB]" />
+                      <h1 className="text-lg">Localization</h1>
+                    </div>
+                    <div className="flex pb-4 space-x-2">
+                      <ShoppingCart className="text-[#A34CDB]" />
+                      <h1 className="text-lg">Sales Enablement</h1>
+                    </div>
                   </div>
                 </div>
-                <div className="flex flex-1 border border-slate-300 rounded-2xl w-[200px] object-cover">
+
+                <div className="border border-slate-300 rounded-2xl w-[350px] mx-2 my-3 object-cover flex justify-end">
                   <img
                     src="/heygen.png"
                     alt=""

@@ -13,13 +13,13 @@ const Platform = () => {
       <NavigationMenu>
         <NavigationMenuList>
           <NavigationMenuItem>
-            <NavigationMenuTrigger className="bg-slate-900 text-base font-semibold ">
+            <NavigationMenuTrigger className="bg-slate-900 text-base font-semibold active:text-[#A34CDB]">
               Platform
             </NavigationMenuTrigger>
             <NavigationMenuContent>
               <div className="w-[580px] h-[400px] border border-slate-400 rounded-2xl flex">
                 <div className="w-full items-center m-10 ">
-                  <p className="text-xl font-medium text-gray-500 pb-10">
+                  <p className="text-xl font-medium text-gray-500 pb-6">
                     Products
                   </p>
 
@@ -46,7 +46,7 @@ const Platform = () => {
                     </h1>
                   </div>
                 </div>
-                <div className=" border border-slate-300 rounded-3xl w-[980px] object-cover my-4 mx-5">
+                <div className=" border border-slate-300 rounded-3xl w-[950px] object-cover my-4 mx-5">
                   <img
                     src="/heygen.png"
                     alt=""
