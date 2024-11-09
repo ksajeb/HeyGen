@@ -12,7 +12,7 @@ const Company = () => {
       <NavigationMenu>
         <NavigationMenuList>
           <NavigationMenuItem>
-            <NavigationMenuTrigger className="bg-slate-900">
+            <NavigationMenuTrigger className="bg-slate-900 text-base font-semibold ">
               Company
             </NavigationMenuTrigger>
             <NavigationMenuContent>Product</NavigationMenuContent>

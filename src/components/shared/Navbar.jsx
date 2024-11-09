@@ -7,17 +7,17 @@ import { Button } from "../ui/button";
 
 function Navbar() {
   return (
-    <div className=" bg-slate-900 w-full h-16 flex justify-between fixed top-0 left-0 z-50">
+    <div className=" bg-slate-900 w-full h-20 flex justify-between fixed top-0 left-0 z-50">
       <div className="ml-4 p-2 w-40 h-40 ">
         <div className="flex items-center ">
-          <img src="/heygen.png" alt="banner" />
-          <div className="flex items-center space-x-2 cursor-pointer pl-6  text-lg justify-between ">
+          <img src="/heygen.png" alt="banner" className="w-full h-full" />
+          <div className="flex items-center space-x-2 cursor-pointer pl-6 text-xl justify-between ">
             <Platform />
+            <Solution />
             <Pricing />
             <Resources />
-            <Solution />
             <ul>
-              <li className="text-lg">Enterprise</li>
+              <li className="text-base font-semibold ">Enterprise</li>
             </ul>
             <Company />
           </div>
